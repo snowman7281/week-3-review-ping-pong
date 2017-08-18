@@ -10,7 +10,7 @@ _{User inputs a number then html will output all numbers counting up to user num
 
 ## Setup/Installation Requirements
 
-* _https://github.com/snowman7281/week-3-review-ping-pong_
+* _ https://github.com/snowman7281/week-3-review-ping-pong _
 * _click on link above_
 * _clown or download html_
 * _open in browser_
@@ -22,6 +22,14 @@ _{This project is to simply practice using loops.}_
 
 _{No known bugs. }_
 
+## Specifications
+
+* _check user input to make sure its a number_
+* _output counting up to number_
+* _outputs divisible by 3 gets swapped with word "ping"_
+* _outputs divisible by 5 gets swapped with word "pong"_
+* _outputs divisible by 3 and 5 gets swapped with word "ping pong"_
+
 ## Support and contact details
 
 _{Snow Vilay}_
@@ -32,6 +40,6 @@ _{html, css, jquery, bootstrap, javascript}_
 
 ### License
 
-*{This is an MIT license project.}*
+*{Licensed under the Mit License}}*
 
 Copyright (c) 2016 **_{Snow Vilay}_**
