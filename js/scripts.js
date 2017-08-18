@@ -39,14 +39,20 @@ function addLineDisplay(arrayOut) {
   });
   return;
 }
-
+var addLineDisplay = function(addLinesArray){
+  $("#output").empty();
+  addLinesArray.forEach(function(lineInput){
+    $("#output").append("<li>" + lineInput + "</li>" )
+  });
+  return;
+}
 
 //UI Userinterface(Front-End)
 $(document).ready(function(){
   $("#ping-pong-form").submit(function(event){
     var numberInput = $("input#num").val();
-
-    $("#output").text(pingPong(numberInput));
+    addLineDisplay(pingPong(numberInput);
+    //$("#output").text(pingPong(numberInput));
     event.preventDefault();
   });
 });
