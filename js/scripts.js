@@ -42,7 +42,7 @@ function addLineDisplay(arrayOut) {
 var addLineDisplay = function(addLinesArray){
   $("#output").empty();
   addLinesArray.forEach(function(lineInput){
-    $("#output").append("<li>" + lineInput + "</li>" )
+    $("#output").append("This is your results!" + "<li>" + lineInput + "</li>" )
   });
   return;
 }
@@ -51,7 +51,7 @@ var addLineDisplay = function(addLinesArray){
 $(document).ready(function(){
   $("#ping-pong-form").submit(function(event){
     var numberInput = $("input#num").val();
-    addLineDisplay(pingPong(numberInput);
+    addLineDisplay(pingPong(numberInput));
     //$("#output").text(pingPong(numberInput));
     event.preventDefault();
   });
